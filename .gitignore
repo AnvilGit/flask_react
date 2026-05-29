@@ -26,6 +26,9 @@ dist/
 # Logs
 *.log
 
+# Misc
+howto.txt
+
 # IDEs
 .vscode/
 .idea/
