@@ -4,8 +4,22 @@ This repository contains a small demo application with a Flask backend and a Rea
 
 ## Project structure
 
-- `backend/` - Flask API server
+- `backend/` - Flask API server and backend business logic
+  - `app.py` - main Flask application entry point
+  - `config.py` - application configuration values
+  - `models/` - data models and in-memory database helpers
+  - `routes/` - API route blueprints for users and auth
+  - `requirements.txt` - Python dependencies for the backend
 - `frontend/` - React frontend built with Vite
+  - `index.html` - Vite HTML entry point for the app
+  - `package.json` - frontend dependencies and npm scripts
+  - `vite.config.js` - Vite configuration for React
+  - `src/` - React application source code
+    - `main.jsx` - React app bootstrap and render target
+    - `App.jsx` - top-level application layout
+    - `components/` - reusable UI components
+    - `pages/` - page-level components
+    - `services/` - API client helpers
 
 ## Backend
 
