@@ -1,0 +1,6 @@
+
+on frontend folder:
+pthon app.py
+
+on backend folder:
+npm run dev
